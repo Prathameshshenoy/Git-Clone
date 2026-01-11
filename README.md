@@ -9,8 +9,6 @@ A minimal implementation of the Git Version Control System, built from scratch i
 This project implements the core functionality of Git—reading, writing, and storing data—without using the official Git libraries.  
 It interacts directly with the file system to manage the `.git` directory, binary object storage, SHA-1 hashing, and the Merkle DAG (Directed Acyclic Graph).
 
-The goal is **deep systems-level understanding**, not feature parity.
-
 ---
 
 ## Project Structure
