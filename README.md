@@ -111,26 +111,6 @@ python3 main.py checkout <commit_hash>
 Restores the directory state exactly as it existed at that commit.
 
 ---
-
-## Implementation Status
-
-- [x] **Phase 1: Plumbing (Storage Engine)**  
-  Implemented Content Addressable Storage (CAS):  
-  `init`, `hash-object`, `cat-file`
-
-- [x] **Phase 2: The Graph**  
-  Recursive tree construction (`write-tree`)  
-  Commit objects (`commit-tree`)
-
-- [x] **Phase 3: History Manager**  
-  Commit traversal (`log`)  
-  Automatic `HEAD` and ref updates
-
-- [x] **Phase 4: High-level Commands**  
-  `checkout` for restoring project state
-
----
-
 ## Notes
 
 - No Git libraries are used.
